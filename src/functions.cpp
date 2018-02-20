@@ -46,11 +46,10 @@ bool balancedSymbols(std::string input){
 
 	if(symbols.empty())
 		return true;
-
-	else
-		return false;
+	
+	return false;
 }
 
 std::string iToP(std::string input){
-
+	return input;
 }
