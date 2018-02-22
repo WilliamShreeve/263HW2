@@ -15,6 +15,14 @@
  *
  * *******************************************************************/
 
+
+/*********************************************************************
+ * balanced symbols takes an input and checks it has balanced (,{, and
+ * [ characters (i.e., they have matching corresponding characters.
+ *
+ * @param input to check fo balance
+ * @return boolean of true if balanced, or false if not.
+ * *******************************************************************/
 bool balancedSymbols(std::string input){
 	
 	std::stack<char, std::deque<char> > symbols;
